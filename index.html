@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Jquery Plugin</title>
+
+        <!--
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+-->
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+        <!--animation plugin plugin css-->
+        <link rel="stylesheet" href="css/animate.css">
+
+        <!--text editor plugin css-->
+        <!--        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
+        <link rel="stylesheet" href="css/editor.css">
+
+        <!--video player css-->
+        <link rel="stylesheet" href="css/rtop.videoPlayer.1.0.2.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"crossorigin="anonymous"/>
+
+        <!--slick plugin css-->
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+
+
+
+        <!--flipping gallery plugin css-->
+        <link rel="stylesheet" href="css/flipping_gallery.css">
+        <link rel="stylesheet" href="css/flipp.css">
+
+        <!--title page scrollplugin css-->
+        <link rel="stylesheet" href="css/tiltedpage-scroll.css">
+
+        <!--Slinky Menu plugin css-->
+        <link rel="stylesheet" href="css/slinky.min.css">
+
+        <!--TwentyTwenty plugin css-->
+        <link rel="stylesheet" href="css/twentytwenty.css">
+
+        <!--prezento plugin plugin css-->
+        <link rel="stylesheet" href="css/jquery.prezento.css">
+
+        <!--scrollonoma plugin plugin css-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/scrollnama.css">
+
+        <!--LightBox plugin plugin css-->
+        <link rel="stylesheet" href="css/uikit.css">
+
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+
+
+        <div class="container py-5">
+            <div class="row text-center py-5">
+                <div class="col-12">
+
+
+                    <!--scrollonoma plugin-->
+                    <div class="py-4 border mt-4 body1 overflow-hidden">
+                        <h2 class="text-info mb-4">Scrollonoma</h2>
+
+                        <div id="block">
+                            <!--                            <p id="console"></p>-->
+
+                            <div class="scrollblock" id="intro">
+                                <h1 id="title">scrollorama</h1>
+                            </div>
+
+                            <div class="scrollblock" id="examples-transition">
+                                <h2>Transitions</h2>
+                                <h3 id="fade-in">Fade In</h3>
+                                <h3 id="fly-in">Fly In</h3>
+                                <h3 id="rotate-in">Rotate In</h3>
+                                <h3 id="zoom-in">Zoom In</h3>
+                                <p id="any"><small><span class="accent">&#9733;</span> Any numeric CSS property <span class="accent">&#9733;</span></small></p>
+                            </div>
+
+                            <!--
+<div class="scrollblock" id="examples-pin">
+<h2>Pin It</h2>
+<h3 id="unpin">&#9733; Then unpin it &#9733;</h3>
+</div>
+-->
+
+                            <div class="scrollblock" id="examples-parallax">
+                                <h2 id="parallax1">Parallax</h2>
+                                <h3 id="parallax2">Parallax</h3>
+                                <h3 id="parallax3">Parallax</h3>
+                            </div>
+
+                            <div class="scrollblock" id="examples-easing">
+                                <h2 id="easing">Easing</h2>
+                                <div id="easing_bottom"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--text editor-->
+                    <div class="py-4 border mt-4">
+                        <h2 class="text-info mb-4">Text Editor</h2>
+                        <div id="txtEditor"></div>
+                    </div>
+
+                    <!--Video Player-->
+                    <div class="py-4 border mt-4">
+                        <h2 class="text-info mb-4">Video Player</h2>
+
+                        <div id="my_video">
+                            <video src="video/sample.mp4" type="video/mp4" poster="img/sample.jpg" playsinline>
+                                <source src="sample.mp4" type="video/mp4">
+                            </video>    
+                        </div>
+                    </div>
+
+                    <!--Slick-->
+                    <div class="py-4 border mt-4">
+                        <h2 class="text-info mb-4">Slick Testimonial</h2>
+
+                        <div class="slider">
+                            <div>
+                                <blockquote class="blockquote">
+                                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt commodi nihil, id sequi perferendis dignissimos voluptatibus ex non qui placeat.</p>
+                                    <footer class="blockquote-footer bg-light">
+                                        Dawoodul Islam
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div>
+                                <blockquote class="blockquote">
+                                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt commodi nihil, id sequi perferendis dignissimos voluptatibus ex non qui placeat.</p>
+                                    <footer class="blockquote-footer bg-light">
+                                        Islam
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--Slick center-->
+                    <div class="py-4 border mt-4">
+                        <h2 class="text-info mb-4">Slick Center</h2>
+
+                        <div class="for_slick_slider multiple-item center">
+                            <div class="items">
+                                <img src="img/1.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="items">
+                                <img src="img/2.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="items">
+                                <img src="img/3.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="items">
+                                <img src="img/4.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+                            </div>'
+
+                            <div class="items">
+                                <img src="img/5.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Flippping gallery-->
+                    <div class="py-4 border mt-4">
+                        <h2 class="text-info mb-4">Flipping Gallery</h2>
+
+
+                        <div class="page-container">
+                            <div class="pointer2">Click Me</div>  
+                            <div class="pointer">Scroll Me</div>
+                            <div class="gallery">
+                                <a href="#" data-caption="Trekking in Chhomrong, Himalayas, Nepal"><img src="img/11.jpg"></a>
+                                <a href="#" data-caption="Ghandruk, getting a good feel of the local"><img src="img/22.jpg"></a>
+                                <a href="#" data-caption="This was a thriller!"><img src="img/33.jpg"></a>
+                                <a href="#" data-caption="You can always find a decent coffee shop, even in the Himalayas!"><img src="img/44.jpg"></a>
+                                <a href="#" data-caption="Beautiful People, Beautiful Country"><img src="img/55.jpg"></a>
+                                <a href="#" data-caption="Trekking in Chhomrong, Himalayas, Nepal"><img src="img/11.jpg"></a>
+                                <a href="#" data-caption="Ghandruk, getting a good feel of the local"><img src="img/22.jpg"></a>
+                                <a href="#" data-caption="This was a thriller!"><img src="img/33.jpg"></a>
+                                <a href="#" data-caption="You can always find a decent coffee shop, even in the Himalayas!"><img src="img/44.jpg"></a>
+                                <a href="#" data-caption="Beautiful People, Beautiful Country"><img src="img/55.jpg"></a>
+                            </div>
+
+
+                            <div class="navigation">
+                                <a href="#" class="btn prev1">Previous</a>
+                                <a href="#" class="btn next1">Next</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--title page scroll-->
+                    <div class="py-4 border mt-4 overflow-hidden">
+                        <h2 class="text-info mb-4">Title Page Scroll</h2>
+
+
+                        <div class="main1">
+                            <section class="page3">
+                                <div class="page_container1">
+                                    <h1><a href="img/5.jpg" target="_blank">Travel to ZhangJiaJie (Avatar's Mountain) in China<br><small>Completed on 20 Jan 2014</small></a></h1>
+                                </div>
+                            </section>
+                            <section class="page4">
+                                <div class="page_container1">
+                                    <h1><a href="img/1.jpg" target="_blank">Ride a Camel in the Australian Outback<br><small>Completed on 17 Feb 2014</small></a></h1>
+                                </div>
+                            </section>
+                            <section class="page5">
+                                <div class="page_container1">
+                                    <h1><a href="img/2.jpg" target="_blank">Travel to Sydney, Australia<br><small>Completed on 14 Feb 2014</small></a></h1>
+                                </div>
+                            </section>
+                            <section class="page6">
+                                <div class="page_container1">
+                                    <h1><a href="img/3.jpg" target="_blank">Visit Uluru (Ayers Rock), Australia<br><small>Completed on 17 Feb 2014</small></a></h1>
+                                </div>
+                            </section>
+                            <section class="page7">
+                                <div class="page_container1">
+                                    <h1><a href="img/4.jpg" target="_blank">Travel to ZhangJiaJie (Avatar's Mountain) in China<br><small>Completed on 20 Jan 2014</small></a></h1>
+                                </div>
+                            </section>
+                            <section class="page8">
+                                <div class="page_container1">
+                                    <h1><a href="img/5.jpg" target="_blank">Ride a Camel in the Australian Outback<br><small>Completed on 17 Feb 2014</small></a></h1>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+
+
+                    <!--slinky menu-->
+                    <div class="py-4 border mt-4">
+                        <h2 class="text-info mb-4">Slinky Menu</h2>
+
+                        <div id="menu" class="text-left">
+                            <ul>
+                                <li>
+                                    <a href="#">Artists</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Aerosmith</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Get Your Wings</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Same Old Song and Dance</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Train Kept A-Rollin'</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Eagles</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Hotel California</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Hotel California</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Pretty Maids All in a Row</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Led Zeppelin</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Physical Graffiti</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Houses of the Holy</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">In My Time of Dying</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Albums</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Get Your Wings</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Same Old Song and Dance</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Train Kept A-Rollin'</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Hotel California</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Hotel California</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Pretty Maids All in a Row</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Physical Graffiti</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Houses of the Holy</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">In My Time of Dying</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Songs</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Hotel California</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Houses of the Holy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">In My Time of Dying</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Pretty Maids All in a Row</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Same Old Song and Dance</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Train Kept A-Rollin'</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Genres</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Rock</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Hotel California</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Pretty Maids All in a Row</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Same Old Song and Dance</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Train Kept A-Rollin'</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Hard rock</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Houses of the Holy</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">In My Time of Dying</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Settings</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Profile</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Player</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Equalizer</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Volume</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <!--TwentyTwenty-->
+                    <div class="py-4 border mt-4 text-center">
+                        <h2 class="text-info mb-4">TwentyTwenty</h2>
+                        <div id="container1">
+                            <!-- The before image is first -->
+                            <img src="img/1.jpg" class="img-fluid" />
+                            <!-- The after image is last -->
+                            <img src="img/2.jpg" class="img-fluid" />
+                        </div>
+                    </div>
+
+                    <!--prezento plugin-->
+                    <div class="py-4 border mt-4">
+                        <h2 class="text-info mb-4">Showcase Your Web Design</h2>
+
+                        <div class="prezento-holder"></div>
+                    </div>
+
+
+                    <!--isotope plugin-->
+                    <div class="py-4 border mt-4 " id="work">
+                        <h2 class="text-info mb-4">Isotope Plugin</h2>
+
+
+                        <div class="row text-center">
+                            <div class="col-12 work-filter" data-aos="fade-up" data-aos-duration="500">
+                                <!--
+<h1>OUR WORKS</h1>
+<hr>
+-->
+                                <!--                                <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</h6>-->
+                                <ul class="list-inline justify-content-center">
+                                    <li class="list-inline-item active "  data-filter="*"><a>ALL </a></li>
+                                    <li class="list-inline-item" data-filter=".print"><a>PRINTING </a></li>
+                                    <li class="list-inline-item" data-filter=".illus"><a>ILLUSTRATION </a></li>
+                                    <li class="list-inline-item" data-filter=".photo"><a>PHOTOGRAPHY </a></li>
+                                    <li class="list-inline-item" data-filter=".present"><a>PRESENTATION </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row work-filter-list" data-aos="fade-up" data-aos-duration="500">
+                            <div class="col-lg-4 mb-30 col-md-6 illus photo mt-4">
+                                <div class="work-filter-item">
+                                    <img src="img/work_img_1.jpg" class="img-fluid" alt="Work Image">
+                                    <div class="overlay">
+                                        <div class="circle_icon">
+                                            <a href="img/work_img_1.jpg" class="icon">
+                                                <i class="fa fa-link"></i>
+                                            </a>
+                                        </div>
+                                        <h5>design collective</h5>
+                                        <p>Branding/Presentation</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 mb-30 col-md-6 print illus present mt-4">
+                                <div class="work-filter-item">
+                                    <img src="img/work_img_2.jpg" class="img-fluid" alt="Work Image">
+                                    <div class="overlay">
+                                        <div class="circle_icon">
+                                            <a href="img/work_img_2.jpg" class="icon">
+                                                <i class="fa fa-link"></i>
+                                            </a>
+                                        </div>
+                                        <h5>design collective</h5>
+                                        <p>Branding/Presentation</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-30 col-md-6 photo present mt-4">
+                                <img src="img/work_img_3.jpg" class="img-fluid" alt="Work Image">
+                                <div class="overlay">
+                                    <div class="circle_icon">
+                                        <a href="img/work_img_3.jpg" class="icon">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <h5>design collective</h5>
+                                    <p>Branding/Presentation</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-30 mt-4">
+                                <img src="img/work_img_4.jpg" class="img-fluid" alt="Work Image">
+                                <div class="overlay">
+                                    <div class="circle_icon">
+                                        <a href="img/work_img_4.jpg" class="icon">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <h5>design collective</h5>
+                                    <p>Branding/Presentation</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-30 print photo mt-4">
+                                <img src="img/work_img_5.jpg" class="img-fluid" alt="Work Image">
+                                <div class="overlay">
+                                    <div class="circle_icon">
+                                        <a href="img/work_img_5.jpg" class="icon">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <h5>design collective</h5>
+                                    <p>Branding/Presentation</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-30 print mt-4">
+                                <img src="img/work_img_6.jpg" class="img-fluid" alt="Work Image">
+                                <div class="overlay">
+                                    <div class="circle_icon">
+                                        <a href="img/work_img_6.jpg" class="icon">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <h5>design collective</h5>
+                                    <p>Branding/Presentation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--lightbox plugin-->
+                    <div class="py-4 border mt-4 " id="work" uk-lightbox>
+                        <h2 class="text-info mb-4">LightBox Plugin</h2>
+
+
+                        <div class="row text-center">
+                            <div class="col-12 work-filter" data-aos="fade-up" data-aos-duration="500">
+                                <!--
+<h1>OUR WORKS</h1>
+<hr>
+-->
+                                <!--                                <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</h6>-->
+                                <ul class="list-inline justify-content-center">
+                                    <li class="list-inline-item active" data-filter="*"><a>ALL </a></li>
+                                    <li class="list-inline-item" data-filter=".print"><a>PRINTING </a></li>
+                                    <li class="list-inline-item" data-filter=".illus"><a>ILLUSTRATION </a></li>
+                                    <li class="list-inline-item" data-filter=".photo"><a>PHOTOGRAPHY </a></li>
+                                    <li class="list-inline-item" data-filter=".present"><a>PRESENTATION </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row work-filter-list" data-aos="fade-up" data-aos-duration="500">
+                            <div class="col-lg-4 mb-30 col-md-6 illus photo mt-4">
+                                <div class="work-filter-item">
+                                    <img src="img/work_img_1.jpg" class="img-fluid" alt="Work Image">
+                                    <div class="overlay">
+                                        <div class="circle_icon">
+                                            <a href="img/work_img_1.jpg" class="icon">
+                                                <i class="fa fa-link"></i>
+                                            </a>
+                                        </div>
+                                        <h5>design collective</h5>
+                                        <p>Branding/Presentation</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 mb-30 col-md-6 print illus present mt-4">
+                                <div class="work-filter-item">
+                                    <img src="img/work_img_2.jpg" class="img-fluid" alt="Work Image">
+                                    <div class="overlay">
+                                        <div class="circle_icon">
+                                            <a href="img/work_img_2.jpg" class="icon">
+                                                <i class="fa fa-link"></i>
+                                            </a>
+                                        </div>
+                                        <h5>design collective</h5>
+                                        <p>Branding/Presentation</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-30 col-md-6 photo present mt-4">
+                                <img src="img/work_img_3.jpg" class="img-fluid" alt="Work Image">
+                                <div class="overlay">
+                                    <div class="circle_icon">
+                                        <a href="img/work_img_3.jpg" class="icon">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <h5>design collective</h5>
+                                    <p>Branding/Presentation</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-30 mt-4">
+                                <img src="img/work_img_4.jpg" class="img-fluid" alt="Work Image">
+                                <div class="overlay">
+                                    <div class="circle_icon">
+                                        <a href="img/work_img_4.jpg" class="icon">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <h5>design collective</h5>
+                                    <p>Branding/Presentation</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-30 print photo mt-4">
+                                <img src="img/work_img_5.jpg" class="img-fluid" alt="Work Image">
+                                <div class="overlay">
+                                    <div class="circle_icon">
+                                        <a href="img/work_img_5.jpg" class="icon">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <h5>design collective</h5>
+                                    <p>Branding/Presentation</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-30 print mt-4">
+                                <img src="img/work_img_6.jpg" class="img-fluid" alt="Work Image">
+                                <div class="overlay">
+                                    <div class="circle_icon">
+                                        <a href="img/work_img_6.jpg" class="icon">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+                                    <h5>design collective</h5>
+                                    <p>Branding/Presentation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Progressbar editor-->
+                    <div class="py-4 border mt-4">
+                        <h2 class="text-info mb-4">Progress Animation</h2>
+                        <div class="col-12 skill">
+                            <div class="text-align">
+                                <h5 class="d-inline-block">graphic design</h5>
+                                <h5 class="d-inline-block">55%</h5>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-progress wow slideInLeft" style="width: 55%;" data-wow-duration="1s"></div>
+                            </div>
+                            <div class="text-align">
+                                <h5 class="d-inline-block">web design</h5>
+                                <h5 class="d-inline-block">70%</h5>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-progress wow slideInLeft" data-wow-duration="1s" style="width: 70%;"></div>
+                            </div>
+                            <div class="text-align">
+                                <h5 class="d-inline-block">photography</h5>
+                                <h5 class="d-inline-block">95%</h5>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-progress wow slideInLeft" style="width: 95%;" data-wow-duration="1s"></div>
+                            </div>
+                            <div class="text-align">
+                                <h5 class="d-inline-block">branding</h5>
+                                <h5 class="d-inline-block">70%</h5>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-progress wow slideInLeft" style="width: 70%;" data-wow-duration="1s"></div>
+                            </div>
+                            <div class="text-align">
+                                <h5 class="d-inline-block">social media</h5>
+                                <h5 class="d-inline-block">55%</h5>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-progress wow slideInLeft" style="width: 55%;" data-wow-duration="1s"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--text editor-->
+                    <div class="py-4 border mt-4">
+                        <h2 class="text-info mb-4">Circle Progress Bar</h2>
+                        <div class="circles">
+                            <div class="first circle">
+                                <span>no <br> animation</span>
+                            </div>
+
+                            <div class="second circle">
+                                <strong></strong>
+                                <span>animation <br> progress</span>
+                            </div>
+
+                            <div class="third circle">
+                                <strong></strong>
+                                <span>value <br> progress</span>
+                            </div>
+
+                            <div class="forth circle">
+                                <span>custom angle, <br> value update</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <!--text editor plugin js-->
+        <script src="js/editor.js"></script>
+
+        <!--video player-->
+        <script src="js/rtop.videoPlayer.1.0.2.min.js"></script>
+
+        <!--Slick-->
+        <!--        <script src="js/jquery-migrate-1.2.1.min.js"></script>-->
+        <script src="js/slick.js"></script>
+
+        <!--flipping gallery-->
+        <script src="js/jquery.flipping_gallery.js"></script>
+
+        <!--title page scroll-->
+        <script src="js/jquery.tiltedpage-scroll.js"></script>
+
+        <!--title page scroll-->
+        <script src="js/jquery.svgmagic.js"></script>
+
+        <!--Slinky Menu-->
+        <script src="js/slinky.min.js"></script>
+
+        <!--TwentyTwenty plugin-->
+        <script src="js/jquery.event.move.js"></script>
+        <script src="js/jquery.twentytwenty.js"></script>
+
+
+        <!--prezento plugin plugin-->
+        <script src="js/jquery.prezento.js"></script>
+
+        <!--scrollonoma plugin plugin-->
+        <script src="js/jquery.lettering-0.6.1.min.js"></script>
+        <script src="js/jquery.scrollorama.js"></script>
+
+        <!--isotope plugin plugin-->
+        <script src="js/isotope.pkgd.min.js"></script>
+
+        <!--lightbox plugin plugin-->
+        <script src="js/uikit.min.js"></script>
+
+        <!--animate plugin plugin-->
+        <script src="js/bootstrap-brogressbar-manager.js"></script>
+        <script src="js/wow.min.js"></script>
+
+
+
+        <!--lightbox plugin plugin-->
+        <script src="js/circle-progress.js"></script>
+        <script src="js/examples.js"></script>
+
+
+
+        <script type="text/javascript">
+
+            new WOW().init();
+
+
+            $(document).ready( function() {
+
+
+
+                //text editor plugin
+                $("#txtEditor").Editor();
+
+                //video player plugin
+                var vid = $('#my_video').RTOP_VideoPlayer({
+                    showFullScreen: true,
+                    showTimer: true,
+                    showSoundControl: true
+                });
+
+                // slick plugin
+                $('.slider').slick({
+                    infinite: true,
+                    slideToShow: 1,
+                    slideToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 4000
+                });
+
+
+
+                $('.center').slick({
+                    centerMode: true,
+                    centerPadding: '60px',
+                    slidesToShow: 3,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
+                    responsive: [
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                centerPadding: '40px',
+                                slidesToShow: 3
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                centerPadding: '40px',
+                                slidesToShow: 1
+                            }
+                        }
+                    ]
+                });
+
+
+                //flipping gallery plugin
+                $(".gallery").flipping_gallery({
+                    direction: "forward", // This is will set the flipping direction when the gallery is clicked. Options available are "forward", or "backward". The default value is forward.
+                    selector: "> a", // This will let you change the default selector which by default, will look for <a> tag and generate the gallery from it. This option accepts normal CSS selectors.
+                    spacing: 10, // You can set the spacing between each photo in the gallery here. The number represents the pixels between each photos. The default value is 10.
+                    showMaximum: 15, // This will let you limit the number of photos that will be in the viewport. In case you have a gazillion photos, this is perfect to hide all those photos and limit only a few in the viewport.
+                    enableScroll: true, // Set this to false if you don't want the plugin to override your scrolling behavior. The default value is true.
+                    flipDirection: "bottom", // You can now set which direction the picture will flip to. Available options are "left", "right", "top", and "bottom". The default value is bottom.
+                    autoplay: 2000 // You can set the gallery to autoplay by defining the interval here. This option accepts value in milliseconds. The default value is false.
+                });
+
+                $(".next1").click(function() {
+                    $(".gallery").flipForward();
+                    return false;
+                });
+                $(".prev1").click(function() {
+                    $(".gallery").flipBackward();
+                    return false;
+                });
+
+
+                //title page scroll
+                $(".main1").tiltedpage_scroll({
+                    angle: 20
+                });
+
+                //slinky plugin
+                window.slinky = $('#menu').slinky();
+
+                //TwentyTwenty plugin
+                $("#container1").twentytwenty();
+
+                //prezento plugin
+                $('.prezento-holder').prezento({
+                    devices: [{
+                        name: 'imac',
+                        deviceImageSRC: '../img/imac.png',
+                        xLeftTop: 182,
+                        yLeftTop: 110,
+                        xRightBottom: 2106,
+                        yRightBottom: 1262,
+                        breakpoint: 1440,
+                        maxWidth: 100 + '%',
+                        bgImgSrc : '../img/web-design-huge.jpg',
+                        bgTransitionDuration: '12s'
+                    },{
+                        name: 'macbookpro',
+                        deviceImageSRC: '../img/mbp.png',
+                        xLeftTop: 180,
+                        yLeftTop: 36,
+                        xRightBottom: 930,
+                        yRightBottom: 505,
+                        breakpoint: 860,
+                        maxWidth: 100 + '%',
+                        //                        bgImgSrc : '../img/web-design-large.jpg',
+                        bgImgSrc : '../img/unify.png',
+                        bgTransitionDuration: '12s'
+                    },{
+                        name: 'ipad',
+                        deviceImageSRC: '../img/ipad.png',
+                        xLeftTop: 110,
+                        yLeftTop: 110,
+                        xRightBottom: 890,
+                        yRightBottom: 1144,
+                        breakpoint: 480,
+                        maxWidth: 100 + '%',
+                        bgImgSrc : '../img/web-design-med.jpg',
+                        bgTransitionDuration: '15s'
+                    },{
+                        name: 'iphone',
+                        deviceImageSRC: '../img/iphone.png',
+                        xLeftTop: 40,
+                        yLeftTop: 134,
+                        xRightBottom: 440,
+                        yRightBottom: 830,
+                        breakpoint: 0,
+                        maxWidth: 100 + '%',
+                        bgImgSrc : '../img/web-design-small.jpg',
+                        bgTransitionDuration: '4s'
+                    }], 
+                    startAfterScroll: true,
+                    resetWhenBelow: true,
+                    responsive: 'window'
+                });
+
+
+
+
+
+
+
+                //scrollonoma plugin
+
+                var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
+
+                // assign function to add behavior for onBlockChange event
+                scrollorama.onBlockChange(function() {
+                    var i = scrollorama.blockIndex;
+                    $('#console')
+                        .css('display','block')
+                        .text('onBlockChange | blockIndex:'+i+' | current block: '+scrollorama.settings.blocks.eq(i).attr('id'));
+                });
+
+                // lettering.js for coolness
+                $('#title').lettering();
+                $('#title span')
+                    .css('display','block')
+                    .css('float','left');
+                $('.char9').css('padding-left','6px');
+
+                // animate the title letters to explode
+                scrollorama
+                    .animate('#title',{ duration: 300, property:'zoom', end: 8 });
+                //                    .animate('#author',{ duration: 10, property:'z-index', end: 0 });
+
+                $('#title span').each(function() {
+                    scrollorama
+                        .animate($(this),{ duration: 400, property:'top', end: Math.random()*120-180 })
+                        .animate($(this),{ duration: 300, property:'rotate', start:0, end:Math.random()*720-360 });
+                });
+
+                // animate some examples
+                scrollorama
+                //                    .animate('#unpin',{ duration:500, property:'padding-top', start:400, pin:true })
+                    .animate('#fade-in',{ delay: 400, duration: 300, property:'opacity', start:0 })
+                    .animate('#fly-in',{ delay: 400, duration: 300, property:'left', start:-1400, end:0 })
+                    .animate('#rotate-in',{ duration: 800, property:'rotate', start:720 })
+                    .animate('#zoom-in',{ delay: 200, duration: 600, property:'zoom', start:8 })
+                    .animate('#any',{ delay: 700, duration: 200, property:'opacity', start:0 })
+                    .animate('#any',{ delay: 800, duration: 200, property:'letter-spacing', start:18 });
+
+                // animate the parallaxing
+                scrollorama
+                    .animate('#parallax2',{ delay: 400, duration: 600, property:'top', start:800, end:-800 })
+                    .animate('#parallax3',{ delay: 200, duration: 1200, property:'top', start:500, end:-500 });
+
+                // animate some easing examples
+                var $easing = $('#easing'),
+                    $clone = $easing.clone().appendTo('#examples-easing')
+                .css({position:'relative',top:'-2.65em'})
+                .lettering();
+                $easing.css({ color: '#131420', textShadow: '0 1px 0 #363959' });
+                easing_array = [	'easeOutBounce',
+                                'easeOutQuad',
+                                'easeOutCubic',
+                                'easeOutQuart',
+                                'easeOutQuint', 
+                                'easeOutExpo' 		];
+                $clone.find('span')
+                    .each( function( idx, el ){
+                    scrollorama.animate( $(this), {	delay:400, duration: 500, 
+                                                   property:'top', end: 300,
+                                                   easing: easing_array[idx] });
+                });
+
+
+                //                light box
+                $(".work-filter-list").isotope();
+
+                $(".work-filter li").on('click', function(){
+                    var selector = $(this).attr('data-filter');
+                    $(".work-filter-list").isotope({
+                        filter:selector
+                    });
+                });
+
+
+
+
+            });
+        </script>
+
+    </body>
+</html>
